@@ -17,14 +17,14 @@ const Hero = () => {
             <h1
               className="title mb-2 lg:mb-5"
               data-aos="fade-down"
-              data-aos-delay="500"
+              data-aos-delay="300"
             >
               {title}
             </h1>
             <p
               className="lead mb-5 lg:mb-10"
               data-aos="fade-down"
-              data-aos-delay="600"
+              data-aos-delay="300"
             >
               {subtitle}
             </p>
@@ -32,7 +32,7 @@ const Hero = () => {
             <div
               className="flex items-center max-w-sm lg:max-w-full mx-auto lg:mx-0 gap-x-2 lg:gap-x-6"
               data-aos="fade-down"
-              data-aos-delay="700"
+              data-aos-delay="300"
             >
               <button className="btn btn-md lg:btn-lg btn-accent flex justify-center items-center lg:gap-x-4">
                 {btnText}
@@ -42,7 +42,7 @@ const Hero = () => {
             </div>
           </div>
           {/* image */}
-          <div className="flex-1" data-aos="fade-up" data-aos-delay="800">
+          <div className="flex-1" data-aos="fade-up" data-aos-delay="300">
             <img src={image} alt="" />
           </div>
         </div>

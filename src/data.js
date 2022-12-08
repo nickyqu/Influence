@@ -1,7 +1,8 @@
 // import images
-import LogoImg from '../src/assets/img/header/logo.svg';
-import HeroImg from '../src/assets/img/hero/image.svg';
-import OverviewProductImg from '../src/assets/img/overview/product.svg';
+import LogoImg from '../src/assets/img/header/influence-logo-svg-vector.svg';
+// import HeroImg from '../src/assets/img/hero/image.svg';
+import HeroImg from '../src/assets/img/hero/influence-1.jpg';
+import OverviewProductImg from '../src/assets/img/overview/chainlink.png';
 import FacebookImg from '../src/assets/img/overview/brands/facebook.svg';
 import GoogleImg from '../src/assets/img/overview/brands/google.svg';
 import CocaColaImg from '../src/assets/img/overview/brands/coca-cola.svg';
@@ -41,8 +42,8 @@ export const nav = [
 ];
 
 export const hero = {
-  title: 'Track your Expenses to Save Money',
-  subtitle: 'Helps you to organize your income and expenses',
+  title: 'Aggregate & propagate your soul-bound Influence',
+  subtitle: 'Helps you to succeed in rapid-growing web3 world',
   btnText: 'Try free demo',
   compText: '— Web, iOS and Android',
   image: HeroImg,
@@ -76,10 +77,10 @@ export const overview = {
 
 export const features = {
   feature1: {
-    pretitle: 'Alwalys online',
-    title: 'Real-time support with cloud',
+    pretitle: 'Show the world',
+    title: 'Your discerning eye for investment',
     subtitle:
-      'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
+      'Aggregate every trasaction you make, and evaluate all the profit you make from your investments.',
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature1Img,
