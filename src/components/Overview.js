@@ -16,7 +16,7 @@ const Overview = () => {
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          Aggregate All of your Influence with powerful, transparent and evolving engines
+          Aggregate and evaluate All of your Influence with powerful, transparent and evolving engines
         </p></div>
 
     </section>

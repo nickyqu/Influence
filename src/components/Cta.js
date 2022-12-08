@@ -15,14 +15,13 @@ const Cta = () => {
           <h2
             className="h2 text-white mb-6"
             data-aos="fade-up"
-            data-aos-delay="200"
           >
             {title}
           </h2>
           <p
             className="text-2xl lg:text-4xl text-white"
             data-aos="fade-up"
-            data-aos-delay="300"
+            data-aos-delay="100"
           >
             {subtitle}
           </p>
@@ -34,12 +33,12 @@ const Cta = () => {
             src={img1}
             alt=""
             data-aos="zoom-out-right"
-            data-aos-delay="700"
+            data-aos-delay="300"
           />
           <button
             className="btn btn-md btn-white mt-[40px] lg:text-[22px] gap-x-[10px] mx-auto"
             data-aos="fade-up"
-            data-aos-delay="400"
+            data-aos-delay="200"
           >
             {btnText} <HiOutlineChevronDown />
           </button>
@@ -48,7 +47,7 @@ const Cta = () => {
             src={img2}
             alt=""
             data-aos="zoom-out-left"
-            data-aos-delay="700"
+            data-aos-delay="300"
           />
         </div>
       </div>

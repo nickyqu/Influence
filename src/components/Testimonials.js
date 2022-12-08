@@ -14,12 +14,11 @@ const Testimonials = () => {
         <h2
           className="title mb-10 lg:mb-20 text-center max-w-[920px] mx-auto"
           data-aos="fade-up"
-          data-aos-delay="200"
         >
           {title}
         </h2>
         {/* slider */}
-        <div data-aos="fade-up" data-aos-delay="400">
+        <div data-aos="fade-up" data-aos-delay="100">
           <ClientSlider clients={clients} />
         </div>
       </div>

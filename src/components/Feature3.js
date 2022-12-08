@@ -12,7 +12,7 @@ const Feature3 = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-[30px]'>
           {/* text */}
-          <div className='flex-1' data-aos='fade-right' data-aos-offset='400'>
+          <div className='flex-1' data-aos='fade-right'>
             <div className='pretitle'>{pretitle}</div>
             <h2 className='title'>{title}</h2>
             <p className='lead'>{subtitle}</p>
@@ -21,7 +21,7 @@ const Feature3 = () => {
             </button>
           </div>
           {/* image */}
-          <div className='flex-1' data-aos='fade-left' data-aos-offset='300'>
+          <div className='flex-1' data-aos='fade-left'>
             <img src={image} alt='' />
           </div>
         </div>

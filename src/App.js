@@ -35,12 +35,11 @@ const App = () => {
       <Feature1 />
       <Feature2 />
       <Feature3 />
-      <Product />
+      {/* <Product />
       <Pricing />
-      <Testimonials />
+      <Testimonials /> */}
       <Cta />
       <Footer />
-      <div className='h-[4000px]'></div>
     </div>
   );
 };

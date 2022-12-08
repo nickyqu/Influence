@@ -1,9 +1,9 @@
 import React from "react";
 // import data
-import OpenSeaImg from "../assets/img/overview/brands/OpenSea-Full-Logo.png";
-import magicEdenImg from "../assets/img/overview/brands/magic_eden.png";
-import coinbaseImg from "../assets/img/overview/brands/logo-coinbase.png";
-import binanceImg from "../assets/img/overview/brands/Binance_logo.png";
+import OpenSeaImg from "../assets/img/brands/investment/OpenSea-Full-Logo.png";
+import magicEdenImg from "../assets/img/brands/investment/magic_eden.png";
+import coinbaseImg from "../assets/img/brands/investment/logo-coinbase.png";
+import binanceImg from "../assets/img/brands/investment/Binance_logo.png";
 const brands= [
     {
       image: OpenSeaImg,
@@ -26,8 +26,8 @@ const brands= [
 const TradeBrands = () => {
   // destructure overview
   return (
-    <section className="py-0">
-      <div className="container mx-auto flex-col items-center lg:flex-row items-center justify-between">
+    <section className="mb-2">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
         {/* brands */}
         {brands.map((item, index) => {
           // destructure item

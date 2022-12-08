@@ -3,14 +3,14 @@ import LogoImg from '../src/assets/img/header/influence-logo-svg-vector.svg';
 // import HeroImg from '../src/assets/img/hero/image.svg';
 import HeroImg from '../src/assets/img/hero/influence-1.jpg';
 import OverviewProductImg from '../src/assets/img/overview/chainlink.png';
-import FacebookImg from '../src/assets/img/overview/brands/facebook.svg';
-import GoogleImg from '../src/assets/img/overview/brands/google.svg';
-import CocaColaImg from '../src/assets/img/overview/brands/coca-cola.svg';
-import LinkedInImg from '../src/assets/img/overview/brands/linkedin.svg';
-import SamsungImg from '../src/assets/img/overview/brands/samsung.svg';
+import FacebookImg from '../src/assets/img/brands/facebook.svg';
+import GoogleImg from '../src/assets/img/brands/google.svg';
+import CocaColaImg from '../src/assets/img/brands/coca-cola.svg';
+import LinkedInImg from '../src/assets/img/brands/linkedin.svg';
+import SamsungImg from '../src/assets/img/brands/samsung.svg';
 import Feature1Img from '../src/assets/img/features/trade1.jpg';
-import Feature2Img from '../src/assets/img/features/feature2-img.svg';
-import Feature3Img from '../src/assets/img/features/feature3-img.svg';
+import Feature2Img from '../src/assets/img/features/social2.jpg';
+import Feature3Img from '../src/assets/img/features/developer2.png';
 import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
 import CardIconImg1 from '../src/assets/img/product/cards/icon1.svg';
 import CardIconImg2 from '../src/assets/img/product/cards/icon2.svg';
@@ -42,7 +42,7 @@ export const nav = [
 ];
 
 export const hero = {
-  title: 'Aggregate & propagate your soul-bound Influence',
+  title: 'Aggregate   & evaluate your soul-bound Influence',
   subtitle: 'Helps you to succeed in rapid-growing web3 world',
   btnText: 'Try free demo',
   compText: '— Web, iOS and Android',
@@ -78,7 +78,7 @@ export const overview = {
 export const features = {
   feature1: {
     pretitle: 'Influence in investment',
-    title: 'Your discerning eye for investment',
+    title: 'Show your success in investment',
     subtitle:
       'Aggregate every trasaction you make, and evaluate all the profit you make from your investments.',
     btnLink: 'Learn more',
@@ -87,18 +87,18 @@ export const features = {
   },
   feature2: {
     pretitle: 'Influence in social media',
-    title: 'Your compelling attractiveness',
+    title: 'Show your attractiveness in social media',
     subtitle:
-      'Aggregate.',
+      'Aggregate every like, comment, subscription you got in all kinds of social media, and evaluate your attractiveness .',
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature2Img,
   },
   feature3: {
-    pretitle: 'Use anytime',
-    title: 'Use anytime when you need',
+    pretitle: 'Influence in development',
+    title: 'Show your contribution in building web3',
     subtitle:
-      'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
+      'Aggregate every contribution you make to build the web3 world, and evaluate your development ability.',
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature3Img,
@@ -177,14 +177,14 @@ export const pricing = {
 };
 
 export const testimonials = {
-  title: 'We have millions of best wishers',
+  title: 'Vision and Mission',
   clients: [
     {
       message:
         'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
       image: AvatarImg1,
       name: 'Cameron Williamson',
-      position: 'CEO',
+      position: 'CET',
       borderColor: '#FF7235',
     },
     {
@@ -200,7 +200,7 @@ export const testimonials = {
         'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
       image: AvatarImg3,
       name: 'Dr. Olivia Hansen',
-      position: 'CEO',
+      position: 'COO',
       borderColor: '#4756DF',
     },
     {
