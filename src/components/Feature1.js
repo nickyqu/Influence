@@ -1,6 +1,7 @@
 import React from "react";
 // import data
 import { features } from "../data";
+import TradeBrands from "./TradeBrands";
 
 const Feature1 = () => {
   // destructure features
@@ -27,6 +28,7 @@ const Feature1 = () => {
           </div>
         </div>
       </div>
+      <TradeBrands />
     </section>
   );
 };

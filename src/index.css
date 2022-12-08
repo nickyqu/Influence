@@ -25,13 +25,13 @@
     @apply text-lg lg:text-[22px] text-light mb-4 lg:mb-6 uppercase font-normal;
   }
   .lead {
-    @apply text-2xl text-light font-normal mb-6;
+    @apply text-2xl text-light font-normal mb-2;
   }
   .link {
     @apply text-lg text-dark;
   }
   .section {
-    @apply py-8 lg:py-[142px];
+    @apply py-4 lg:py-[40px];
   }
   .btn {
     @apply rounded-lg transition flex justify-center items-center;

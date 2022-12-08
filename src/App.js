@@ -31,7 +31,7 @@ const App = () => {
       <Header />
       <Hero />
       <Overview />
-      <Brands />
+      {/* <Brands /> */}
       <Feature1 />
       <Feature2 />
       <Feature3 />
