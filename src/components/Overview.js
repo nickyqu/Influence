@@ -10,7 +10,7 @@ const Overview = () => {
         <p className="text-4xl text-white font-normal mb-20">
           How to prove your influence in a decentralized world?
         </p>
-        <div className=" mt-15 grid grid-cols-3 grid-rows-3 gap-10">
+        <div className=" mt-14 grid grid-cols-3 grid-rows-3 gap-10">
           <p data-aos="fade-up" className="text-2xl text-white font-normal col-span-2">
             1. Get a soul-bound NFT from Influence.org
           </p>
