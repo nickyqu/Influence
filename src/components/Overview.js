@@ -1,24 +1,44 @@
 import React from "react";
-// import data
-import { overview } from "../data";
-
+import nftImg from "../assets/img/overview/nft.png";
+import mintImg from "../assets/img/overview/mint.png";
+import scoreImg from "../assets/img/overview/score1.webp";
 const Overview = () => {
   // destructure overview data
-  const { productImg } = overview;
   return (
     <section className="lg:min-h-[712px] bg-overview bg-cover bg-left-top pt-[30px] lg:pt-[87px]">
-      <div className="container mx-auto flex justify-end overflow-hidden">
-        <img src={productImg} alt="" className="rounded-lg" />
-      </div>
       <div className="container mx-auto ">
-        <p
-          className="text-3xl text-white font-normal mb-5 lg:mt-10 "
-          data-aos="fade-up"
-          data-aos-delay="100"
-        >
-          Aggregate and evaluate All of your Influence with powerful, transparent and evolving engines
-        </p></div>
-
+        <p className="text-4xl text-white font-normal mb-20">
+          How to prove your influence in a decentralized world?
+        </p>
+        <div className=" mt-15 grid grid-cols-3 grid-rows-3 gap-10">
+          <p data-aos="fade-up" className="text-2xl text-white font-normal col-span-2">
+            1. Get a soul-bound NFT from Influence.org
+          </p>
+          <img
+            className="h-[130px] w-[130px] object-cover"
+            src={mintImg} data-aos="fade-up"
+            alt=""
+          />
+          <p data-aos="fade-up" className="text-2xl text-white font-normal col-span-2 ">
+            2. Update your SBT with your influence rating, calculated from multiple influence source such as twitter, gitcoin, opensea coinbase
+            etc.
+          </p>
+          <img
+            className="h-[130px] w-[130px] object-cover"
+            src={nftImg} data-aos="fade-up"
+            alt=""
+          />
+          <p data-aos="fade-up" className="text-2xl text-white font-normal col-span-2">
+            3. Prove your influence everywhere without revealing your real
+            identity!
+          </p>
+          <img
+            className="h-[130px] w-[130px] object-cover"
+            src={scoreImg} data-aos="fade-up"
+            alt=""
+          />
+        </div>
+      </div>
     </section>
   );
 };

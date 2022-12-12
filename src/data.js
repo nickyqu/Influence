@@ -42,10 +42,10 @@ export const nav = [
 ];
 
 export const hero = {
-  title: 'Aggregate   & evaluate your soul-bound Influence',
-  subtitle: 'Helps you to succeed in rapid-growing web3 world',
-  btnText: 'Try free demo',
-  compText: '— Web, iOS and Android',
+  title: 'Get your soul-bound NFT of your Influence',
+  subtitle: 'Prove your influence everywhere in rapid-growing web3 world',
+  btnText: 'Get SBT',
+  compText: '',
   image: HeroImg,
 };
 
@@ -78,7 +78,7 @@ export const overview = {
 export const features = {
   feature1: {
     pretitle: 'Influence in investment',
-    title: 'Show your success in investment',
+    title: 'Prove your success in investment',
     subtitle:
       'Aggregate every trasaction you make, and evaluate all the profit you make from your investments.',
     btnLink: 'Learn more',
@@ -87,7 +87,7 @@ export const features = {
   },
   feature2: {
     pretitle: 'Influence in social media',
-    title: 'Show your attractiveness in social media',
+    title: 'Prove your attractiveness in social media',
     subtitle:
       'Aggregate every like, comment, subscription you got in all kinds of social media, and evaluate your attractiveness .',
     btnLink: 'Learn more',
@@ -96,7 +96,7 @@ export const features = {
   },
   feature3: {
     pretitle: 'Influence in development',
-    title: 'Show your contribution in building web3',
+    title: 'Prove your contribution in building web3',
     subtitle:
       'Aggregate every contribution you make to build the web3 world, and evaluate your development ability.',
     btnLink: 'Learn more',
