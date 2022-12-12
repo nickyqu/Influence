@@ -6,7 +6,7 @@ import Copyright from '../components/Copyright';
 
 const Footer = () => {
   // destructure footer data
-  const { logo, links, legal, newsletter, form } = footer;
+  const { logo, links, newsletter, form } = footer;
   return (
     <footer className='pt-[142px] pb-[60px]'>
       <div className='container mx-auto'>
@@ -18,26 +18,6 @@ const Footer = () => {
           {/* list 1 */}
           <div data-aos='fade-up' data-aos-delay='100'>
             <div className='text-2xl uppercase font-medium mb-6'>Links</div>
-            <ul className='flex flex-col gap-y-3'>
-              {links.map((item, index) => {
-                // destructure item
-                const { href, name } = item;
-                return (
-                  <li key={index}>
-                    <a
-                      className='font-medium hover:text-accent transition'
-                      href={href}
-                    >
-                      {name}
-                    </a>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-          {/* list 2 */}
-          <div data-aos='fade-up' data-aos-delay='100'>
-            <div className='text-2xl uppercase font-medium mb-6'>Legal</div>
             <ul className='flex flex-col gap-y-3'>
               {links.map((item, index) => {
                 // destructure item
