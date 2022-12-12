@@ -3,9 +3,12 @@ import React, { useState, useEffect } from 'react';
 import { header } from '../data';
 // import icons
 import { HiMenuAlt4, HiOutlineX } from 'react-icons/hi';
+import { ConnectButton } from '@rainbow-me/rainbowkit';
+
 // import components
 import MobileNav from '../components/MobileNav';
 import Nav from '../components/Nav';
+
 
 const Header = () => {
   // mobile nav state
@@ -28,7 +31,7 @@ const Header = () => {
     >
       <div className='container mx-auto flex justify-between items-center'>
         {/* logo */}
-        <a href='/' data-aos='fade-down' data-aos-delay='300'>
+        <a href='#Home' data-aos='fade-down' data-aos-delay='300'>
           <img className=' h-[120px]   object-cover' src={logo}  alt='' />
         </a>
         {/* nav - initially hidden - show on desktop mode */}
@@ -47,6 +50,7 @@ const Header = () => {
         >
           {btnText}
         </button>
+        {/* <ConnectButton/> */}
         {/* mobile nav trigger btn - hidden on desktop */}
         <button className='lg:hidden' onClick={() => setMobileNav(!mobileNav)}>
           {mobileNav ? (

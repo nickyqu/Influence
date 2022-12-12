@@ -1,5 +1,5 @@
 // import images
-import LogoImg from '../src/assets/img/header/influence-logo-svg-vector.svg';
+import LogoImg from '../src/assets/img/header/influence-logo.svg';
 // import HeroImg from '../src/assets/img/hero/image.svg';
 import HeroImg from '../src/assets/img/hero/influence-1.jpg';
 import OverviewProductImg from '../src/assets/img/overview/chainlink.png';
@@ -35,16 +35,16 @@ export const header = {
 };
 
 export const nav = [
-  { name: 'Overview', href: '/' },
-  { name: 'Features', href: '/' },
-  { name: 'About us', href: '/' },
-  { name: 'Feedback', href: '/' },
+  { name: 'Home', href: '#Home' },
+  { name: 'About', href: '#About' },
+  { name: 'Features', href: '#Features' },
+  { name: 'Contact', href: '#Contact' },
 ];
 
 export const hero = {
   title: 'Tokenize Your Influence',
   subtitle: 'Prove your influence everywhere in rapid-growing web3 world',
-  btnText: 'Get SBT',
+  btnText: 'Coming soon',
   compText: '',
   image: HeroImg,
 };
@@ -225,7 +225,7 @@ export const testimonials = {
 export const cta = {
   title: 'Tokenize Your Influence',
   subtitle: 'Get your soul bound NFT for free.',
-  btnText: 'Get SBT',
+  btnText: 'Coming soon',
   img1: CtaImg1,
   img2: CtaImg2,
 };
@@ -234,11 +234,9 @@ export const footer = {
   logo: LogoImg,
   links: [
     { name: 'Home', href: '/' },
-    { name: 'About us', href: '/' },
-    { name: 'Careers', href: '/' },
-    { name: 'Overview', href: '/' },
+    { name: 'About', href: '/' },
     { name: 'Features', href: '/' },
-    { name: 'Blog', href: '/' },
+    { name: 'Contact', href: '/' },
   ],
   legal: [
     { name: 'Terms of use', href: '/' },

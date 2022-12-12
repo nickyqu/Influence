@@ -8,7 +8,7 @@ const Cta = () => {
   // destructure cta data
   const { title, subtitle, btnText, img1, img2 } = cta;
   return (
-    <section className="section bg-cta bg-cover bg-left-top">
+    <section id={"Contact"} className="section bg-cta bg-cover bg-left-top">
       <div className="max-w-[1340px] mx-auto px-[25px]">
         {/* text */}
         <div className="max-w-[920px] mx-auto text-center">
