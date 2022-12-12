@@ -31,18 +31,18 @@ import LinkedinIcon from '../src/assets/img/copyright/linkedin.svg';
 
 export const header = {
   logo: LogoImg,
-  btnText: 'Request a demo',
+  btnText: 'Connect wallet',
 };
 
 export const nav = [
+  { name: 'Overview', href: '/' },
   { name: 'Features', href: '/' },
   { name: 'About us', href: '/' },
-  { name: 'Pricing', href: '/' },
   { name: 'Feedback', href: '/' },
 ];
 
 export const hero = {
-  title: 'Get your soul-bound NFT of your Influence',
+  title: 'Tokenize Your Influence',
   subtitle: 'Prove your influence everywhere in rapid-growing web3 world',
   btnText: 'Get SBT',
   compText: '',
@@ -223,9 +223,9 @@ export const testimonials = {
 };
 
 export const cta = {
-  title: '20M+ downloaded from 32 different countries',
-  subtitle: 'Try demo for 7 days with full features.',
-  btnText: 'Try free demo',
+  title: 'Tokenize Your Influence',
+  subtitle: 'Get your soul bound NFT for free.',
+  btnText: 'Get SBT',
   img1: CtaImg1,
   img2: CtaImg2,
 };
@@ -236,7 +236,7 @@ export const footer = {
     { name: 'Home', href: '/' },
     { name: 'About us', href: '/' },
     { name: 'Careers', href: '/' },
-    { name: 'Pricing', href: '/' },
+    { name: 'Overview', href: '/' },
     { name: 'Features', href: '/' },
     { name: 'Blog', href: '/' },
   ],
@@ -248,7 +248,7 @@ export const footer = {
   ],
   newsletter: {
     title: 'Newsletter',
-    subtitle: 'Over 25000 people have subscribed',
+    subtitle: '',
   },
   form: {
     placeholder: 'Enter your email',

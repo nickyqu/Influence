@@ -15,7 +15,7 @@ const Overview = () => {
             1. Get a soul-bound NFT from Influence.org
           </p>
           <img
-            className="h-[130px] w-[130px] object-cover"
+            className="h-[130px] w-[130px] object-cover rounded-lg"
             src={mintImg} data-aos="fade-up"
             alt=""
           />
@@ -24,7 +24,7 @@ const Overview = () => {
             etc.
           </p>
           <img
-            className="h-[130px] w-[130px] object-cover"
+            className="h-[130px] w-[130px] object-cover rounded-lg"
             src={nftImg} data-aos="fade-up"
             alt=""
           />
@@ -33,7 +33,7 @@ const Overview = () => {
             identity!
           </p>
           <img
-            className="h-[130px] w-[130px] object-cover"
+            className="h-[130px] w-[130px] object-cover rounded-lg"
             src={scoreImg} data-aos="fade-up"
             alt=""
           />
