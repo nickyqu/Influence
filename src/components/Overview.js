@@ -5,7 +5,7 @@ import scoreImg from "../assets/img/overview/score1.webp";
 const Overview = () => {
   // destructure overview data
   return (
-    <section className="lg:min-h-[712px] bg-overview bg-cover bg-left-top pt-[30px] lg:pt-[87px]">
+    <section id={"About"} className="lg:min-h-[812px] bg-overview bg-cover bg-left-top pt-[30px] lg:pt-[140px]">
       <div className="container mx-auto ">
         <p className="text-4xl text-white font-normal mb-20">
           How to prove your influence in a decentralized world?

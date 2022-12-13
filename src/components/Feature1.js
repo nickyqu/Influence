@@ -10,7 +10,7 @@ const Feature1 = () => {
   const { pretitle, title, subtitle, btnLink, btnIcon, image } = feature1;
 
   return (
-    <section className="section">
+    <section id={"Features"} className="section">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg:items-center lg:gap-x-[50px]">
           {/* text */}
