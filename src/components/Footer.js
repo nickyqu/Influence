@@ -3,10 +3,14 @@ import React from 'react';
 import { footer } from '../data';
 // import components
 import Copyright from '../components/Copyright';
+import twitter from "../assets/img/footer/twitter.png";
+import discord from "../assets/img/footer/discord.png";
+import telegram from "../assets/img/footer/telegram.png";
+
 
 const Footer = () => {
   // destructure footer data
-  const { logo, links, newsletter, form } = footer;
+  const { logo, links, newsletter } = footer;
   return (
     <footer className='pt-[142px] pb-[60px]'>
       <div className='container mx-auto'>
@@ -40,23 +44,20 @@ const Footer = () => {
             <div className='text-2xl uppercase font-medium mb-6'>
               {newsletter.title}
             </div>
+            <div className='flex flex-row justify-between pr-10 pb-6'>
+              <a href='https://influence.org'>
+                <img src={twitter} alt="" className="h-[50px] object-cover rounded-lg" />
+              </a>
+              <a href='https://influence.org'>
+                <img src={discord} alt="" className="h-[50px] object-cover rounded-lg" />
+              </a>
+              <a href='https://influence.org'>
+                <img src={telegram} alt="" className="h-[50px] object-cover rounded-lg" />
+              </a>
+            </div>
             <div className='text-xl text-light mb-[18px]'>
               {newsletter.subtitle}
             </div>
-            {/* form */}
-            <form className='max-w-[349px] mb-[10px]'>
-              <div className='h-[62px] p-[7px] flex border border-dark rounded-lg'>
-                <input
-                  className='w-full h-full pl-6 border-none outline-none placeholder:text-dark'
-                  type='text'
-                  placeholder={form.placeholder}
-                />
-                <button className='btn btn-sm bg-accent hover:bg-accentHover w-[102px] text-white'>
-                  {form.btnText}
-                </button>
-              </div>
-            </form>
-            <span className='text-sm text-light'>{form.smallText}</span>
           </div>
         </div>
         <hr

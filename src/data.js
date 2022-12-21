@@ -11,7 +11,6 @@ import SamsungImg from '../src/assets/img/brands/samsung.svg';
 import Feature1Img from '../src/assets/img/features/trade1.jpg';
 import Feature2Img from '../src/assets/img/features/social2.jpg';
 import Feature3Img from '../src/assets/img/features/developer2.png';
-import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
 import CardIconImg1 from '../src/assets/img/product/cards/icon1.svg';
 import CardIconImg2 from '../src/assets/img/product/cards/icon2.svg';
 import CardIconImg3 from '../src/assets/img/product/cards/icon3.svg';
@@ -245,8 +244,8 @@ export const footer = {
     { name: 'Cookie policy', href: '/' },
   ],
   newsletter: {
-    title: 'Newsletter',
-    subtitle: '',
+    title: 'JOIN US',
+    subtitle: 'together, decide where does the commuinity go',
   },
   form: {
     placeholder: 'Enter your email',
