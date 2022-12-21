@@ -90,8 +90,8 @@ export const features = {
     title: 'Prove your attractiveness in social media',
     subtitle:
       'Aggregate every like, comment, subscription you got in all kinds of social media, and evaluate your attractiveness .',
-   // btnLink: 'Learn more',
-   // btnIcon: ArrowRightImg,
+   // btnLink: 'Learn more', 
+   // btnIcon: ArrowRightImg, 
     image: Feature2Img,
   },
   feature3: {
@@ -99,8 +99,8 @@ export const features = {
     title: 'Prove your contribution in building web3',
     subtitle:
       'Aggregate every contribution you make to build the web3 world, and evaluate your development ability.',
-   // btnLink: 'Learn more',
-   // btnIcon: ArrowRightImg,
+   // btnLink: 'Learn more', 
+   // btnIcon: ArrowRightImg, 
     image: Feature3Img,
   },
 };
