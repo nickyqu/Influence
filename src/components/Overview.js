@@ -12,7 +12,7 @@ const Overview = () => {
         </p>
         <div className=" mt-14 grid grid-cols-3 grid-rows-3 gap-10">
           <p data-aos="fade-up" className="text-2xl text-white font-normal col-span-2">
-            1. Get a soul-bound NFT from Influence.org
+            1. Get a soul-bound NFT from Influence3.org
           </p>
           <img
             className="h-[130px] w-[130px] object-cover rounded-lg"
