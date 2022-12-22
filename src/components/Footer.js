@@ -45,13 +45,13 @@ const Footer = () => {
               {newsletter.title}
             </div>
             <div className='flex flex-row justify-between pr-10 pb-6'>
-              <a href='https://influence.org'>
+              <a href='https://influence3.org'>
                 <img src={twitter} alt="" className="h-[50px] object-cover rounded-lg" />
               </a>
-              <a href='https://influence.org'>
+              <a href='https://influence3.org'>
                 <img src={discord} alt="" className="h-[50px] object-cover rounded-lg" />
               </a>
-              <a href='https://influence.org'>
+              <a href='https://influence3.org'>
                 <img src={telegram} alt="" className="h-[50px] object-cover rounded-lg" />
               </a>
             </div>
