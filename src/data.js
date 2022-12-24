@@ -232,10 +232,10 @@ export const cta = {
 export const footer = {
   logo: LogoImg,
   links: [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/' },
-    { name: 'Features', href: '/' },
-    { name: 'Contact', href: '/' },
+    { name: 'Home', href: '#Home' },
+    { name: 'About', href: '#About' },
+    { name: 'Features', href: '#Features' },
+    { name: 'Contact', href: '#Contact' },
   ],
   legal: [
     { name: 'Terms of use', href: '/' },
